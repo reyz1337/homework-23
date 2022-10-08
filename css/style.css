@@ -6,6 +6,7 @@ body {
     background-color: #e2edbe;
 }
 .title {
+    padding-top: 20px;
     text-align: center;
     font-size: 50px;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +14,8 @@ body {
 .container {
     display: flex;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 .monument-list {
     padding: 10px 30px;
@@ -40,6 +42,6 @@ body {
 }
 #map {
    height: 900px;
-   width: 2000px;
+   width: 1500px;
    margin: 20px 30px;
 }
